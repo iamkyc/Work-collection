@@ -1,0 +1,227 @@
+body{
+	font-family: Microsoft JhengHei;
+	overflow-x: hidden;
+	cursor: default;
+}
+
+header{
+	background-image:url("images/header_background.jpg");
+	width:100vw;
+	height:100vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.black-mask{
+	background-color: rgba(0,0,0,0.5);
+	width:100vw;
+	height:100vh;
+}
+
+#title{
+	position:absolute;
+	top:25%;
+	left:15%;
+	color:#ffffff;
+}
+
+#title h1{
+	display:block;
+	font-size:4rem;
+	margin:0px !important;
+	padding:0px !important;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#title h1 span{
+	display:block;
+	font-size:0.8em;
+}
+
+#title h5{
+	margin-top:10px;
+}
+
+#title p{
+	max-width:500px;
+	margin-top:100px;
+}
+
+#github-button{
+	background-color: rgba(0,0,0,0);
+	border:2px solid #ffffff;
+	cursor: pointer;
+  	width:200px;
+  	position:absolute;
+  	top:60vh;
+  	right:15%;
+}
+
+#github-button a{
+	color:#ffffff;
+	display:flex;
+  	font-size:1.5rem;
+  	padding:0px;
+  	margin:0px;
+  	padding: 0px 12px;
+  	text-align:center;
+  	transition:0.25s;
+}
+
+#github-button a:hover{
+	background-color: #ffffff;
+	color:#4D0000;
+}
+
+#github-button a:link{
+	text-decoration:none;
+}
+
+#github-button a h5{
+	font-size:1.5rem;
+	padding-top:5px;
+}
+
+#github-button a h5 span{
+	font-size:1.2em;
+}
+
+content{
+	padding:50px 6vw;
+	background-image:url("images/content_background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	
+}
+
+.card{
+	width:290px;
+	margin:1vw;
+	border-radius: 0px;
+	border:0px;
+	background: -webkit-linear-gradient(bottom right,transparent 8% ,#fff 0);
+	position:relative;
+}
+
+.card:hover{
+	position:relative;
+	top:-5px;
+	left:-2px;
+}
+
+.card-img-top{
+	height:155px;
+	border-bottom:1px solid #E0E0E0;
+}
+
+.card-title{
+	font-size:1.4rem;
+}
+
+.card-text{
+	font-size:0.95rem;
+	
+}
+
+.card-tags span{
+	border:1px solid #EA7500;
+	color:#EA7500;
+	font-size:0.7rem;
+	border-radius:1px;
+	margin:0px 2px;
+	padding:0px 5px;
+	
+}
+
+.hiprlinks{
+	color:#FFA042;
+	padding:0px 5px;
+}
+
+.hiprlinks i{
+	font-size:0.8em;
+}
+
+.hiprlinks:link{
+	text-decoration:none;
+}
+
+.hiprlinks:hover{
+	color:#EA7500;
+}
+
+.boundary{
+	color:#d0d0d0;
+}
+
+footer{
+	width:100vw;
+	height:50px;
+	color:#ffffff;
+	background-color:#3C3C3C;
+	text-align: center;
+	padding-top:10px;
+}
+
+@media screen and (max-width:1150px){
+
+	header{
+		height:80vh;
+	}
+
+	#title{
+		top:15vh;
+		left:10%;
+	}
+
+	#title p{
+		margin-top:50px;
+	}
+
+	#github-button{
+	  	top:60vh;
+	  	left:10%;
+	  	width:150px;
+	  	padding-top:5px;
+	}
+
+	#github-button a h5{
+		font-size:1rem;
+		padding-top:2.5px;
+	}
+	#github-button a i{
+		font-size:3rem;
+	}
+
+	
+}
+
+@media screen and (max-width:640px){
+	header{
+		height:65vh;
+	}
+
+	#title{
+		top:10vh;
+		left:10%;
+	}
+
+	#title h1{
+		font-size:2rem;	
+	}
+	
+	#title p{
+		font-size:0.85rem;
+		margin-top:20px;
+	}
+
+	#github-button{
+	  	top:50vh;
+	  	left:10%;
+	}
+}
+
